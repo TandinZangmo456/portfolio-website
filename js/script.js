@@ -3,7 +3,7 @@ let htmlProgress = document.querySelector(".html-css"),
   htmlValue = document.querySelector(".html-progress");
 
 let htmlStartValue = 0,
-  htmlEndValue = 90,
+  htmlEndValue = 80,
   htmlspeed = 30;
 
 let progresshtml = setInterval(() => {
@@ -24,7 +24,7 @@ let javascriptProgress = document.querySelector(".javascript"),
   javascriptValue = document.querySelector(".javascript-progress");
 
 let javascriptStartValue = 0,
-  javascriptEndValue = 75,
+  javascriptEndValue = 65,
   jsspeed = 30;
 
 let progressjs = setInterval(() => {
@@ -40,7 +40,7 @@ let progressjs = setInterval(() => {
   }
 }, jsspeed);
 
-// php progress circular bar 
+// python progress circular bar 
 let phpProgress = document.querySelector(".php"),
   phpValue = document.querySelector(".php-progress");
 
